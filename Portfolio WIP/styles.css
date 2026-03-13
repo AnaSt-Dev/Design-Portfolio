@@ -1,0 +1,459 @@
+
+.heading1 {
+    /* TODO: understand if folder is used and if not, decide on a fix and fix it */
+    @font-face {
+        font-family: 'New Spirit';
+        src: url(D:\Fonts\New Spirit Font\New Spirit Medium\NewSpiritMedium.otf);
+    }
+    font-family: New Spirit;
+    color: #160042;
+    font-size: 56px;
+    font-weight: normal;
+    text-align: center;
+    margin-top:120px;
+    margin-bottom:24px;
+}
+
+.heading2 {
+    /* TODO: understand if folder is used and if not, decide on a fix and fix it */
+    @font-face {
+        font-family: 'New Spirit';
+        src: url(D:\Fonts\New Spirit Font\New Spirit Medium\NewSpiritMedium.otf);
+    }
+    font-family: New Spirit;
+    color: #160042;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.heading3 {
+    @font-face {
+        font-family: 'New Spirit';
+        src: url(D:\Fonts\New Spirit Font\New Spirit Regular\NewSpiritRegular.otf);
+    }
+    font-family: New Spirit;
+    color: #160042;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.heading4 {
+    @font-face {
+        font-family: 'New Spirit';
+        src: url(D:\Fonts\New Spirit Font\New Spirit Regular\NewSpiritRegular.otf);
+    }
+    font-family: New Spirit;
+    color: #160042;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.heading5 {
+    @font-face {
+        font-family: 'New Spirit';
+        src: url(D:\Fonts\New Spirit Font\New Spirit Regular\NewSpiritRegular.otf);
+    }
+    font-family: New Spirit;
+    color: #160042;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+p {
+    font-family:'Poppins';
+    color: #160042;
+}
+
+.paragraph1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:24px;
+}
+
+.paragraph2 {
+    font-size: 16px;
+    text-align:left;
+    max-width: 400px;
+    line-height: 32px;
+    margin-top: 12px;
+}
+
+.paragraph3 {
+    font-size: 14x;
+    text-align: left;
+    max-width: 600px;
+    margin-top:12px;
+    margin-bottom:24px;
+}
+
+.primary-button {
+    background-color: #A43F56;
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 12px;
+    margin-left: 12px;
+    transition: background-color 0.6s;
+}
+
+.primary-button:hover {
+background-color:#882038;
+}
+
+.secondary-button {
+background-color: #fffbf4;
+border-color:#A43F56;
+font-family: 'Poppins';
+font-weight: normal;
+border-radius: 100px;
+padding-left:32px;
+padding-right:32px;
+padding-top: 18px;
+padding-bottom:18px;
+border-style: solid;
+border-width: 2px;
+font-size: 16px;
+color:#A43F56;
+margin-left: 12px;
+margin-right: 12px;
+cursor: pointer;
+transition: background-color 0.6s;
+}
+
+.tertiary-button {
+background-color: transparent;
+font-family: 'Poppins';
+font-weight: normal;
+padding-left:20px;
+padding-right:20px;
+padding-top: 12px;
+padding-bottom:12px;
+border-radius: 100px;
+border-color: none;
+border-width: 0px;
+font-size: 14px;
+color:#160042;
+cursor: pointer;
+margin-right: 6px;
+margin-left: 6px;
+}
+
+
+.quarternary-button{
+    background-color:transparent;
+    align-items:right;
+    border: none;
+    border-radius: 100px;
+    border-color:#160042;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 12px;
+    padding-bottom:12px;
+    border-style: solid;
+    border-width: 1px;
+    font-family:'Poppins';
+    font-weight:normal;
+    font-size:12px;
+    color: #160042;
+}
+
+.tag {
+background-color: #ebb6a0;
+color: white;
+font-family: 'Poppins';
+font-weight: normal;
+padding-left:20px;
+padding-right: 20px;
+padding-top:12px;
+padding-bottom:12px;
+border-radius: 100px;
+border-color: none;
+border-width: 0px;
+font-size: 12px;
+margin-bottom: 12px;
+
+}
+
+#wrapper_centered {
+width:100%;
+height:100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#navigation {
+    position: fixed;
+    background-color:#fffbf4;
+    z-index:3;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.input {
+    width:500px;
+    height:40px;
+    border-radius:20px;
+    border-style:solid;
+    border-color:#160042;
+    border-width:1px;
+    margin-top:-10px;
+    padding-left:24px;
+    font-family: 'Poppins';
+}
+
+#wrapper_text{
+    border: none;
+    padding-bottom:54px;
+    padding-top:80px;
+    margin-top:240px;
+    width:auto;
+    max-width:1100px;
+    padding-left:0px;
+    margin-left:300px;
+    margin-right:auto;
+    justify-content: left;
+    height:100%;
+}
+
+#wrapper_process{
+    border: none;
+    background-color:#fae2d2;
+    border-radius:40px;
+    padding-bottom:40px;
+    padding-top:80px;
+    margin-top:240px;
+    width:1300px;
+    display:block;
+    padding-left:40px;
+    padding-right:40px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+    height:100%;
+}
+
+#footer {
+    position: sticky;
+    background-color:#fffbf4;
+    width: auto;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:80px;
+    padding-top:120px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.icons{
+    width: 600px;
+    display:block;
+    align-items:center;
+    justify-content:center;
+    margin-left:48px;
+}
+
+#wrapper{
+    width:100%;
+    height:auto;
+    display:flex;
+    margin-top:80px;
+    margin-bottom:80px;
+    justify-content:space-evenly;
+}
+
+#wrapper_heading{
+    width:100%;
+    height:auto;
+    display:flex;
+    margin-top:240px;
+    justify-content:center;
+}
+
+.offset {
+    left: 700px;
+    position: relative;
+    top: -80px;
+  }
+
+#wrapper_form{
+    background-color:#fae2d2;
+    width:540px;
+    height:auto;
+    padding-top: 40px;
+    padding-bottom:64px;
+    padding-left:40px;
+    padding-right:32px;
+    border-radius:40px;
+    justify-content:center;
+    align-items: center;
+    justify-content:center;
+}
+
+#wrapper_logos {
+    max-width: 1600px;
+    height: 20px;
+    display:flex;
+    padding-top:64px;
+    padding-bottom:64px;
+    padding-left:160px;
+    padding-right:160px;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    align-items: center;
+    justify-content: center;
+    vertical-align: left;
+    width: 100px;
+    height: 33px;
+    margin-right: 1000px;
+}
+
+.blog-thumbnail {
+    width: 800px;
+    height: 540px;
+    border-radius:40px;
+    border-width:0px;
+    border:none;
+}
+
+.blog-thumbnail-small {
+    width: 610px;
+    height: 414px;
+    border-radius:40px;
+    border-width:0px;
+    border:none;
+}
+
+.blog-thumbnail-medium {
+    width: 720px;
+    height: 428px;
+    border-radius:40px;
+    border-width:0px;
+    border:none;
+}
+
+.blog-thumbnail-xsmall {
+    width: 540px;
+    height: 428px;
+    border-radius:40px;
+    border-width:0px;
+    border:none;
+}
+
+.section {
+    align-items:center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    text-align:center;
+    justify-content:center;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:focus{
+    color: #160042;
+}
+
+a:visited {
+    color:#160042;
+}
+
+.blog-post-section{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 24px;
+    margin-right:24px;
+    justify-content: left;
+    align-items: left;
+}
+
+.box {
+    max-width: 600;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+}
+
+.container {
+    display: flex; 
+    height: 100%; 
+    width: 100%; 
+    margin-bottom:120px;
+    margin-top: 120px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.grid {
+    display: grid; 
+    align-items: center;
+    height: 100%;
+    width: 70%; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, 2fr); 
+    gap: 16px; 
+    padding: 16px;
+    border-radius: 16px; 
+}
+
+.cross-fade {
+    position: relative;
+    max-width:400px;
+}
+  
+.cross-fade img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+} 
+  
+.cross-fade img:first-child {
+    opacity: 1;
+}
+  
+.cross-fade:hover img {
+    opacity: 1;
+}
+  
+.cross-fade:hover img:first-child {
+    opacity: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#fffbf4
+}
